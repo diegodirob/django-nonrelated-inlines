@@ -23,7 +23,7 @@ class NonrelatedInlineModelAdminChecks(InlineModelAdminChecks):
         return []
 
 
-class NonrelatedStackedInline(admin.StackedInline):
+class NonrelatedStackedInline(admin.TabularInline):
     """
     Stacked inline base class for models not explicitly related to the inline
     model.
